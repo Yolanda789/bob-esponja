@@ -1,0 +1,365 @@
+.body {
+    background-color: yellow;
+    height: 350px;
+    width: 250px;
+    border: solid 3px black;
+    position: relative;
+    overflow: hidden;
+   
+
+}
+
+.eyes {
+    position: absolute;
+    width: 200px;
+    left: 50px;
+    top: 40px;
+    z-index: 10;
+
+}
+
+.right {
+    display: inline-block;
+    background: #fff;
+    position: relative;
+    width: 80px;
+    height: 80px;
+    border-radius: 50px;
+    border: 3px solid #000;
+    margin-left: -10px;
+
+
+
+}
+
+.left {
+    display: inline-block;
+    background: #fff;
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    border-radius: 50px;
+    border: 3px solid #000;
+    margin-left: -10px;
+    
+
+
+}
+
+.pupil {
+    width: 40px;
+    height: 40px;
+    border-radius: 80px;
+    background:#00CED1;
+    border: 1px solid #000;
+    margin-top: 20px;
+    margin-left: 20px;
+
+}
+
+.iris {
+    width: 15px;
+	height: 15px;
+	background:#000;
+	border-radius:  50%;
+	position:relative;
+	top: 12px;
+	left: 12px;
+}
+
+.noise{
+    background-color: yellow;
+    height: 30px;
+    width: 20px;
+    left: -7px;
+    top: 50px;
+    border:  3px solid black;
+    position: absolute;
+    border-radius: 50%;
+    border-bottom: 4px solid transparent;
+   
+}
+
+.mouth{
+    height: 40px;
+    width: 150px;
+    background-color: black;
+    position:relative;
+    top: 5px;
+    right: 70px;
+    border-radius: 60%;
+    border-bottom: 5px solid;
+    background: transparent;
+
+}
+
+.teeth{
+    height: 20px;
+    width: 20px;  
+    background-color: white;
+    position: absolute;
+    left: 12px;
+    top: 110px;
+    border: 3px solid black;
+    
+    
+
+}
+
+.teeth1{
+    height: 20px;
+    width: 20px;  
+    background-color: white;
+    position: relative;
+    right: 15px;
+    top: 3px;
+    border: 3px solid black;
+    
+   
+}
+
+.cheeks{
+    height: 15px;
+    width: 20px;  
+    background-color: yellow;
+    position: absolute;
+    left: 70px;
+    top: 75px;
+    border: 1px solid red;
+    border-radius: 40%;
+    border-bottom: 4px solid transparent;
+}
+
+
+    .cheek1{
+        height: 15px;
+        width: 20px;  
+        background-color:yellow;
+        position: absolute;
+        right: 135px;
+        top: 80px;
+        border: 1px solid red;
+        border-radius: 40%;
+        border-bottom: 4px solid transparent;
+}
+
+.circle {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    position: relative;
+    background-color: #DAA520;
+    bottom: 170px;
+    right:120px;
+}
+   
+.circle1{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    position: absolute;
+    background-color: #DAA520;
+    top: 120px;
+    right:120px;
+}
+
+.circle2 {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    position: relative;
+    background-color: #DAA520;
+    bottom: 170px;
+    left:100px;
+}
+
+.circle3 {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    position: absolute;
+    background-color: #DAA520;
+    top: 120px;
+    left: 70px;
+}
+
+
+.T-shirt{
+    background-color:white;
+    height: 50px;
+    width: 260px;
+    position: relative;
+    top: 10px; 
+    left: -120px; 
+    border-bottom: 3px solid black;
+    border-top: 3px solid black;
+
+}
+    
+.trousers{
+    height: 60px;
+    width: 260px;
+    background-color:brown;
+    position: absolute;
+    top: 250px;
+    left: -120px;
+   
+}
+
+
+.necktie{
+  width: 40px;
+  height: 20px;
+  position: relative;
+  background-color: #fff;
+  top: -45px;
+  border: 3px solid #000;
+  right: 60px;
+  
+}
+
+
+.necktie1{
+    width: 40px;
+    height: 30px;
+    position: absolute;
+    background-color:red;
+    border: 3px solid #000;
+    right: 50px;
+    top: 194px;
+    
+  }
+
+  .necktie2{
+    width: 40px;
+    height: 20px;
+    position: relative;
+    background-color:#fff; 
+    bottom: 71px;
+    right: -28px;
+    border: 3px solid #000;
+    display: inline block;
+    
+}
+
+
+  .belt{
+    width: 40px;
+    height: 10px;
+    background-color: black;
+    position: absolute;
+    top: 270px;
+    left: 80px;
+  }
+
+  
+  .belt1{
+    width: 40px;
+    height: 10px;
+    background-color: black;
+    bottom: 21px;
+    position:relative;
+    left: 30px;
+
+  }
+
+  .belt2{
+    width: 40px;
+    height: 10px;
+    background-color: black;
+    top: 270px;
+    position: absolute;
+    right: 100px;
+  }
+
+  .belt3{
+    width: 40px;
+    height: 10px;
+    background-color: black;
+    position: relative;
+    top: -32px;
+    right: 110px;
+
+  }
+
+  .bowtie{
+    width: 25px;
+    height: 60px;
+    background-color:red;
+    position: absolute;
+    top: 230px;
+    right: 58px;
+    border: 3px solid #000;
+    border-top: 3px solid transparent;
+
+  }
+
+  .eyelash{
+    width: 3px;
+    height: 16px;
+    background-color:black;  
+    position: relative;
+    top: -325px;
+    left: 25px
+  }
+
+  .eyelash1{
+    width: 3px;
+    height: 16px;
+    background-color:black;  
+    position: relative;
+    top: -345px;
+    left: 45px
+  }
+
+  .eyelash2{
+    width: 3px;
+    height: 16px;
+    background-color:black;  
+    position: relative;
+    top: -351px;
+    left: 65px
+  }
+
+  .eyelash3{
+    width: 3px;
+    height: 16px;
+    background-color:black;  
+    position: relative;
+    top: -375px;
+    right: 25px
+  }
+
+  .eyelash4{
+    width: 3px;
+    height: 16px;
+    background-color:black;  
+    position: relative;
+    top: -393px;
+    right: 45px
+  }
+
+  .eyelash5{
+    width: 3px;
+    height: 16px;
+    background-color:black;  
+    position: relative;
+    top: -399px;
+    right: 65px;
+  }
+
+
+
+
+
+
+
+
+
+   
+          
+          
+ 
+
+
+
